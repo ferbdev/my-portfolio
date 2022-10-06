@@ -1,6 +1,6 @@
 {
-  "homepage": "http://ferbdev.github.io/my-portfolio",
-  "name": "landingpage-react-template",
+  "homepage": "https://ferbdev.github.io/my-portfolio",
+  "name": "my-portfolio",
   "private": true,
   "dependencies": {
     "@emotion/core": "^11.0.0",
