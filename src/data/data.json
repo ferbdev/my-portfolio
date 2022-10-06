@@ -1,0 +1,188 @@
+{
+    "Header": {
+
+        "title": "Ferbtech",
+        "paragraph": ".Net Developer"
+
+    },
+    "About": {
+        "paragraph": "Empresa 100% brasileira, de profissionais com anos de experiência na arquitetura e desenvolvimento de softwares na área de movimentação, armazenamento, logística e transporte, com diversos projetos de sucesso implantados em segmentos como: Cosméticos, Medicamentos, Automotivos, Confecções, Supermercados e Centros de Distribuição. Somos especialistas em implementar e desenvolver projetos de alta complexidade, inovando e criando para gerar soluções reais para as necessidades de nossos clientes e suas aspirações, surpreendendo-o com resultados eficazes e tecnologia de ponta. A MAIS Inteligência desenvolve e mantém todo o ciclo de vida de suas soluções, desenvolvendo processos, metodologia, algoritmos e aplicações corporativas que são traduzidas para nossos clientes em controle e eficiência, economizando tempo e recursos com maior produtividade e qualidade.",
+        "Why": [
+            "Experiência de mercado",
+            "Outro",
+            "Outro",
+            "Outro"
+        ],
+        "Why2": [
+            "Outro",
+            "Outro",
+            "Outro",
+            "Outro"
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-wordpress",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-cloud-download",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-language",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-plane",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        }
+
+
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Clients": [{
+            "img": "img/clients/magalu.png",
+            "text": "A Magazine Luiza possui um centro de distribuição que conta com Picking To Light, Transport Order, Put To Wall e Sorter.",
+            "name": "Magazine Luiza"
+        },
+        {
+            "img": "img/clients/natura.png",
+            "text": "A Natura possui um centro de distribuição que conta com Picking To Light e Transport Order.",
+            "name": "Natura"
+        },
+        {
+            "img": "img/clients/tottus.png",
+            "text": "A Tottus possui um centro de distribuição que conta com Picking To Light, Transport Order, Put To Wall e Sorter.",
+            "name": "Tottus"
+        },
+        {
+            "img": "img/clients/boticario.png",
+            "text": "O boticário possui um centro de distribuição que conta com Picking To Light, Transport Order, Put To Wall e Sorter.",
+            "name": "O Boticário"
+        },
+        {
+            "img": "img/clients/dimed.png",
+            "text": "A Dimed possui um centro de distribuição que conta com Picking To Light, Transport Order, Put To Wall e Sorter.",
+            "name": "Dimed"
+        },
+        {
+            "img": "img/clients/gimba.png",
+            "text": "O Gimba possui um centro de distribuição que conta com Transport Order, Put To Wall e Sorter.",
+            "name": "Gimba"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/01.jpg",
+            "name": "John Doe",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Mike Doe",
+            "job": "Senior Designer"
+        }, {
+            "img": "img/team/03.jpg",
+            "name": "Jane Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Karen Doe",
+            "job": "Project Manager"
+        }
+    ],
+    "Contact": {
+        "address": "Avenida Antônio Carlos Comitre, 525 10 Andar - Parque Campolim - Sorocaba/SP (18047620)",
+        "phone": "+55 (15) 4009-8665",
+        "email": "contato@maisinteligencia.com",
+        "facebook": "https://www.facebook.com/Mais-Intelig%C3%AAncia-341788399297629",
+        "twitter": "https://www.twitter.com",
+        "youtube": "https://www.youtube.com"
+    },
+    "Features": [{
+            "icon": "fa fa-archive",
+            "title": "Separação de pedidos",
+            "text": "Separação de pedidos via display ou app."
+        },
+        {
+            "icon": "fa fa-cubes",
+            "title": "Separação batch/split",
+            "text": "Separação de produtos em estratégia de batch."
+        },
+        {
+            "icon": "fa fa-arrows",
+            "title": "Transporte",
+            "text": "Transporte de volumes para seus respectivos destinos."
+        },
+        {
+            "icon": "fa fa-list-alt",
+            "title": "Conferência",
+            "text": "Conferência da separação de pedidos que ocorre na linha."
+        },
+        {
+            "icon": "fa fa-truck",
+            "title": "Expedição",
+            "text": "Controle de desvios de sorter na expedição."
+        },
+        {
+            "icon": "fa fa-print",
+            "title": "Impressão de documentos",
+            "text": "Controle de estações de impressão de alto fluxo."
+        },
+        {
+            "icon": "fa fa-exchange",
+            "title": "Integrações",
+            "text": "Integrações de entrada e saída."
+        },
+        {
+            "icon": "fa fa-area-chart",
+            "title": "Checagem por peso",
+            "text": "Checagem de peso das caixas produzidas."
+        }
+
+    ]
+}
