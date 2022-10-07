@@ -206,8 +206,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 0;
 	/*background: url(../img/mais-bg.png) center center no-repeat;
 	background-color: #e5e5e5;*/
-	background: rgb(0,20,27);
-background: radial-gradient(circle, rgba(0,20,27,1) 0%, rgba(0,20,27,0.9500175070028011) 100%);
+	background: rgb(19,19,19);
+background: linear-gradient(90deg, rgba(19,19,19,1) 20%, rgba(47,47,47,1) 80%);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;

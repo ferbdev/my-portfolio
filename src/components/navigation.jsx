@@ -34,7 +34,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <img src='img/icon/me.png' alt="logo" className='navbar-brand'/>
+          <img src='img/icon/logo_ferb.png' alt="logo" className='navbar-brand'/>
           <a className='navbar-brand page-scroll' href='#page-top'>
               FERBTECH
           </a>{' '}
