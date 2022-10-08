@@ -157,8 +157,8 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #428ec3;
-	background-image: linear-gradient(to right, #428ec3 0%, #5ca9fb 100%);
+	background-color: #6900b1;
+    background-image: linear-gradient(to right, #540087 0%, #6900b1 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -171,7 +171,7 @@ hr {
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
 	background-image: none;
-	background-color: #5ca9fb;
+	background-color: #8b00ed;
 }
 .btn:active, .btn.active {
 	background-image: none;
