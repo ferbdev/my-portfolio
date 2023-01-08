@@ -7,7 +7,7 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
-h2, h3, h4 {
+h2, h3, h4, h6 {
 	font-family: 'Raleway', sans-serif;
 }
 h2 {
@@ -30,7 +30,12 @@ h4 {
 h5 {
 	text-transform: uppercase;
 	font-weight: 700;
-	line-height: 20px;
+	/*line-height: 20px;*/
+}
+h6 {
+	font-size: 18px;
+	color: rgb(249, 239, 255);
+	font-weight: 600;
 }
 p {
 	font-size: 15px;
@@ -40,12 +45,12 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #608dfd;
+	color: #8b00ed;
 	font-weight: 400;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #608dfd;
+	color: #8b00ed;
 }
 ul, ol {
 	list-style: none;
@@ -126,10 +131,10 @@ hr {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
-	border-color: #608dfd;
+	border-color: #8b00ed;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #608dfd;
+	background-color: #8b00ed;
 }
 .section-title {
 	margin-bottom: 70px;
@@ -157,8 +162,8 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #428ec3;
-	background-image: linear-gradient(to right, #428ec3 0%, #5ca9fb 100%);
+	background-color: #6900b1;
+    background-image: linear-gradient(to right, #540087 0%, #6900b1 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -171,7 +176,7 @@ hr {
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
 	background-image: none;
-	background-color: #5ca9fb;
+	background-color: #8b00ed;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -212,9 +217,11 @@ background: linear-gradient(90deg, rgba(19,19,19,1) 20%, rgba(47,47,47,1) 80%);
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	height: 100%
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.0);
+	height: 100%
 }
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
@@ -241,6 +248,9 @@ header .intro-text {
 	padding-top: 25rem;
 	padding-bottom: 30rem;
 	text-align: center;
+}
+.css-cssveg {
+	height: 100%;
 }
 /* Features Section */
 #features {
@@ -710,7 +720,7 @@ color: #777;
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-	color: #608dfd;
+	color: #8b00ed;
 	background: #fff;
 }
 
@@ -741,7 +751,7 @@ color: #777;
 	font-size: 14px;
 }
 #footer a {
-	color: #608dfd;
+	color: #8b00ed;
 }
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
@@ -769,6 +779,7 @@ color: #777;
 		text-transform: uppercase;
 		margin-top: 0;
 		margin-bottom: 10px;
+		height: 17rem;
 	}
 
 	#menu a.navbar-brand {
@@ -805,4 +816,95 @@ color: #777;
 		width: 100%;
 		padding-right: 0px;
 	}
+  }
+
+.mainCard{
+	display: flex;
+	position: relative;
+  	min-width: 150px;
+	min-height: 150px;
+	border-radius: 50%;	
+	-webkit-box-shadow: 6px 6px 8px 0px #afafaf !important;
+	-moz-box-shadow: 6px 6px 8px 0px #afafaf;
+	box-shadow: 6px 6px 8px 0px #afafaf;
+	background-color: rgb(85, 31, 156);
+	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+}
+
+.timeline {
+	position: relative;
+	margin: 0 auto;
+	max-width: 600px;
+  }
+  
+  .timeline::before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 0;
+	bottom: 0;
+	width: 1px;
+	background-color: #c3c3c3;
+	transform: translateX(-50%);
+  }
+  
+  .timeline-item {
+	position: relative;
+	margin-bottom: 150px;
+	min-height: 50px;
+  }
+  
+  .timeline-year {
+	overflow: hidden;
+	max-height: 0;
+	opacity: 0;
+	position: relative;
+	transform: translateY(50px) scale(0.9);
+	opacity: 0;
+	transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+  }
+  
+  .timeline-content {
+	overflow: hidden;
+	max-height: 0;
+	transform: translateY(50px) scale(0.9);
+  	opacity: 0;
+  	transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+	margin-bottom: 10px;
+
+	-webkit-box-shadow: 6px 6px 8px 0px #afafaf !important;
+	-moz-box-shadow: 6px 6px 8px 0px #afafaf;
+	box-shadow: 6px 6px 8px 0px #afafaf;
+	border: 1px solid #f8f8f8;
+	border-radius: 10px;
+	padding-left: 15px;
+	background-color: #f8f8f8;
+  }
+
+  .content-right {
+	position: relative;
+	float: right;
+	width: 45%;
+  }
+  
+  .timeline-item.active .timeline-content {
+	max-height: 1000px;
+	transform: translateY(0) scale(1);
+  	opacity: 1;
+  	transition: transform 0.8s ease-in, opacity 0.8s ease-in;
+  }
+
+  .timeline-item.active .timeline-year {
+	max-height: 170px;
+	opacity: 1;
+  	transition: transform 0.5s ease-in, opacity 0.5s ease-in;
   }
