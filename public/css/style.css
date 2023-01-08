@@ -45,12 +45,12 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #608dfd;
+	color: #8b00ed;
 	font-weight: 400;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #608dfd;
+	color: #8b00ed;
 }
 ul, ol {
 	list-style: none;
@@ -131,10 +131,10 @@ hr {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
-	border-color: #608dfd;
+	border-color: #8b00ed;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #608dfd;
+	background-color: #8b00ed;
 }
 .section-title {
 	margin-bottom: 70px;
@@ -720,7 +720,7 @@ color: #777;
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-	color: #608dfd;
+	color: #8b00ed;
 	background: #fff;
 }
 
@@ -751,7 +751,7 @@ color: #777;
 	font-size: 14px;
 }
 #footer a {
-	color: #608dfd;
+	color: #8b00ed;
 }
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
@@ -821,8 +821,8 @@ color: #777;
 .mainCard{
 	display: flex;
 	position: relative;
-  	min-width: 150px !important;
-	min-height: 150px !important;
+  	min-width: 150px;
+	min-height: 150px;
 	border-radius: 50%;	
 	-webkit-box-shadow: 6px 6px 8px 0px #afafaf !important;
 	-moz-box-shadow: 6px 6px 8px 0px #afafaf;
@@ -846,13 +846,14 @@ color: #777;
 	top: 0;
 	bottom: 0;
 	width: 1px;
-	background-color: #000;
+	background-color: #c3c3c3;
 	transform: translateX(-50%);
   }
   
   .timeline-item {
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: 150px;
+	min-height: 50px;
   }
   
   .timeline-year {
@@ -878,7 +879,6 @@ color: #777;
 	transform: translateY(50px) scale(0.9);
   	opacity: 0;
   	transition: transform 0.5s ease-out, opacity 0.5s ease-out;
-	width: 45%;
 	margin-bottom: 10px;
 
 	-webkit-box-shadow: 6px 6px 8px 0px #afafaf !important;
@@ -886,13 +886,21 @@ color: #777;
 	box-shadow: 6px 6px 8px 0px #afafaf;
 	border: 1px solid #f8f8f8;
 	border-radius: 10px;
+	padding-left: 15px;
+	background-color: #f8f8f8;
+  }
+
+  .content-right {
+	position: relative;
+	float: right;
+	width: 45%;
   }
   
   .timeline-item.active .timeline-content {
 	max-height: 1000px;
 	transform: translateY(0) scale(1);
   	opacity: 1;
-  	transition: transform 0.5s ease-in, opacity 0.5s ease-in;
+  	transition: transform 0.8s ease-in, opacity 0.8s ease-in;
   }
 
   .timeline-item.active .timeline-year {

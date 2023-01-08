@@ -7,7 +7,7 @@ const SkillsLine = () => {
         var headerHeight = document.getElementById("divInitialPresentation").clientHeight;
 
         const top = window.pageYOffset;// - headerHeight;
-        const pageSize = window.innerHeight - 250;
+        const pageSize = window.innerHeight - 300;
 
         // Percorre todos os itens da timeline
         timelineItems.forEach(item => {
@@ -47,16 +47,18 @@ export const Skills = (props) => {
                     <h6>Version Control Systems</h6>
                   </div>
                 </div>
-                <div class="timeline-content">
-                  <h3>GitHub</h3>
-                  <p>GitFlow </p>
+                <div class="col-md-6">
+                  <div class="timeline-content">
+                    <h3>GitHub</h3>
+                    <p>GitFlow </p>
+                  </div>
                 </div>
-                <div class="timeline-content">
-                </div>
-                <div class="timeline-content">
-                  <h3>Bitbucket</h3>
-                  <p>GitFlow </p>
-                </div>
+                <div class="col-md-6">
+                  <div class="timeline-content">
+                    <h3>Bitbucket</h3>
+                    <p>GitFlow </p>
+                  </div>
+                </div> 
               </div>
               <div class="timeline-item">
                 <div class="timeline-year">
@@ -64,15 +66,19 @@ export const Skills = (props) => {
                     <h6>Relational Databases</h6>
                   </div>
                 </div>
-                <div class="timeline-content">
-                  <h3>SQL Server</h3>
-                  <p>Entities structure</p>
-                  <p>Procedures, functions, views</p>
+                <div class="col-md-6">
+                  <div class="timeline-content">
+                    <h3>SQL Server</h3>
+                    <p>Entities structure</p>
+                    <p>Procedures, functions, views</p>
+                  </div>
                 </div>
-                <div class="timeline-content">
-                  <h3>Oracle</h3>
-                  <p>Entities structure</p>
-                  <p>Procedures, functions, views</p>
+                <div class="col-md-6">
+                  <div class="timeline-content">
+                    <h3>Oracle</h3>
+                    <p>Entities structure</p>
+                    <p>Procedures, functions, views</p>
+                  </div>
                 </div>
               </div>
               <div class="timeline-item">
@@ -81,9 +87,17 @@ export const Skills = (props) => {
                       <h6>Object-Relational Mapping</h6>
                     </div>
                   </div>
-                  <div class="timeline-content">
-                    <h3>Dapper</h3>
-                    <h3>EF</h3>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>Dapper</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>Entity Framework</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
                   </div>
                 </div>
                 <div class="timeline-item">
@@ -92,9 +106,17 @@ export const Skills = (props) => {
                       <h6>Web API</h6>
                     </div>
                   </div>
-                  <div class="timeline-content">
-                    <h3>Título do evento</h3>
-                    <p>Conteúdo do evento</p>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>REST</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>SOAP</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
                   </div>
                 </div>
                 <div class="timeline-item">
@@ -103,9 +125,29 @@ export const Skills = (props) => {
                       <h6>Authentication</h6>
                     </div>
                   </div>
-                  <div class="timeline-content">
-                    <h3>Título do evento</h3>
-                    <p>Conteúdo do evento</p>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>Oauth2</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>JWT</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>Basic</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>Token</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
                   </div>
                 </div>
                 <div class="timeline-item">
@@ -114,11 +156,29 @@ export const Skills = (props) => {
                       <h6>Design and Development Principles</h6>
                     </div>
                   </div>
-                  <div class="timeline-content">
-                    <p>SOLID</p>
-                    <p>DDD</p>
-                    <p>KISS</p>
-                    <p>Clean Architecture</p>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>SOLID</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>DDD</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>KISS</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>Clean Architecture</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
                   </div>
                 </div>
                 <div class="timeline-item">
@@ -127,13 +187,17 @@ export const Skills = (props) => {
                       <h6>Architectural Patterns</h6>
                     </div>
                   </div>
-                  <div class="timeline-content">
-                    <h3>Monolithic</h3>
-                    <p>Conteúdo do evento</p>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>Monolithic</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
                   </div>
-                  <div class="timeline-content">
-                    <h3>Microservices</h3>
-                    <p>Conteúdo do evento</p>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>Microservices</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
                   </div>
                 </div>
                 <div class="timeline-item">
@@ -142,13 +206,17 @@ export const Skills = (props) => {
                       <h6>RTS Communication</h6>
                     </div>
                   </div>
-                  <div class="timeline-content">
-                    <h3>SignalR</h3>
-                    <p>Conteúdo do evento</p>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>SignalR</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
                   </div>
-                  <div class="timeline-content">
-                    <h3>TCP/IP</h3>
-                    <p>Conteúdo do evento</p>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>TCP/IP</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
                   </div>
                 </div>
                 <div class="timeline-item">
@@ -157,9 +225,11 @@ export const Skills = (props) => {
                       <h6>Containerzation</h6>
                     </div>
                   </div>
-                  <div class="timeline-content">
-                    <h3>Docker</h3>
-                    <p>Conteúdo do evento</p>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>Docker</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
                   </div>
                 </div>
                 <div class="timeline-item">
@@ -168,19 +238,27 @@ export const Skills = (props) => {
                       <h6>Testing</h6>
                     </div>
                   </div>
-                  <div class="timeline-content">
-                    <h3>Unit test</h3>
-                    <p>Conteúdo do evento</p>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>Unit test</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
                   </div>
-                  <div class="timeline-content">
-                    <h3>Functional test</h3>
-                    <p>Conteúdo do evento</p>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>Functional test</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
                   </div>
-                  <div class="timeline-content">
-                    <h3>Integration test</h3>
-                    <p>Conteúdo do evento</p>
+                  <div class="col-md-6">
+                    <div class="timeline-content">
+                      <h3>Integration test</h3>
+                      <p>Conteúdo do evento</p>
+                    </div>
                   </div>
                 </div>
+                
+                
             </div>      
           </div>
         </div>
