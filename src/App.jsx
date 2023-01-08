@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Navigation } from './components/navigation'
 import { Header } from './components/header'
 import { Features } from './components/features'
-import { About } from './components/about'
+import { Skills } from './components/skills'
 import { Product } from './components/product'
 import { Contact } from './components/contact'
 import { Clients } from './components/clients'
@@ -25,6 +25,7 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      <Skills/>
       
     </div>
   )

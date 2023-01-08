@@ -5,6 +5,36 @@
         "paragraph": ".Net Developer"
 
     },
+    "Skills": {
+        "BackEnd": [
+            {
+                "Name": "Version Control System",
+                "Values": [
+                    "Github",
+                    "BitBucket"
+                ]
+            },
+            "Relational Databases",
+            "NoSql Databases",
+            "ORM's",
+            "API's",
+            "Authentication",
+            "Design and Development Principles",
+            "Architectural Patterns",
+            "RTS Communication",
+            "Containerzation",
+            "Testing"
+        ],
+        "Devops": [
+            "CI/CD",
+            "Release Package",
+            "Deploy"
+        ],
+        "FrontEnd": [
+            "WEB",
+            "Mobile"
+        ]
+    },
     "About": {
         "paragraph": "Empresa 100% brasileira, de profissionais com anos de experiência na arquitetura e desenvolvimento de softwares na área de movimentação, armazenamento, logística e transporte, com diversos projetos de sucesso implantados em segmentos como: Cosméticos, Medicamentos, Automotivos, Confecções, Supermercados e Centros de Distribuição. Somos especialistas em implementar e desenvolver projetos de alta complexidade, inovando e criando para gerar soluções reais para as necessidades de nossos clientes e suas aspirações, surpreendendo-o com resultados eficazes e tecnologia de ponta. A MAIS Inteligência desenvolve e mantém todo o ciclo de vida de suas soluções, desenvolvendo processos, metodologia, algoritmos e aplicações corporativas que são traduzidas para nossos clientes em controle e eficiência, economizando tempo e recursos com maior produtividade e qualidade.",
         "Why": [
